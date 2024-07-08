@@ -1,0 +1,31 @@
+:root {
+    --primario: #7B9E90;
+    --PrimarioOscuro: #476358;
+    --secundario:
+    --secundarioOscuro:
+    --blanco: #fff;
+    --negro: #000;
+
+    --fuentePrincipal: .staatliches-regular {
+        font-family: "Staatliches", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }     
+}
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /*1 rem = 10px*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Globales */
+
+body {
+  background-color: var(--primario);
+  font-size: 1.6rem;
+}
