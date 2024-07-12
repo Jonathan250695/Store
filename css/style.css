@@ -101,7 +101,7 @@ h3 {
   padding: 1rem 0; /*1 rem arriba y abajo e izquierda y derecha 0*/
   display:flex;
   justify-content: center; /*para centrar el contenido*/
-  gap: 2rem; /*separa cada uno de los elementos en 2 rem esto solo se ocupa en flexbox*/
+  gap: 2rem;             /*separa cada uno de los elementos en 2 rem esto solo se ocupa en flexbox*/
 }
 
 .navegacion__enlace {
