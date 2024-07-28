@@ -192,12 +192,10 @@ h3 {
 .nosotros {
   display: grid;
   grid-template-rows: repeat(2, auto); /*crea dos columnas exactamente iguales auto para que no haya espacio entre la imagen y el texto*/
-
 }
 
 @media (min-width: 768px) { /*se pone dentro de un mediaquerie*/ 
   .nosotros {
-    
     grid-template-columns: repeat(2, 1fr); /*crea dos columnagis*/
     column-gap: 2rem; /*separación de las dos columnas*/
   }  
@@ -237,9 +235,10 @@ h3 {
 }
 
 .bloque__titulo {
-  margin: 0;
+  margin: 0; /*sin margen entre y la imagen*/
 }
 
 .bloque__imagen {
-  width: 100%;
-}
+  width: 100%; /*imagenes mas grandes*/
+} 
+
