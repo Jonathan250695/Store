@@ -280,9 +280,3 @@ border-style: solid;  esto se puede simplificar*/
   background-color: var(--secundarioOscuro);
 } 
 
-@media (min-width:360px ) {
-  .grid {
-    display: flex;
-    flex-direction: column;
-  }
-}
